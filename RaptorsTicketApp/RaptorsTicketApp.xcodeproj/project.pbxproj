@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A372F2AE49B6C00293FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A372E2AE49B6C00293FF5 /* AppDelegate.m */; };
+		051A37322AE49B6C00293FF5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A37312AE49B6C00293FF5 /* SceneDelegate.m */; };
+		051A37352AE49B6C00293FF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A37342AE49B6C00293FF5 /* ViewController.m */; };
+		051A37382AE49B6C00293FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051A37362AE49B6C00293FF5 /* Main.storyboard */; };
+		051A373A2AE49B6D00293FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051A37392AE49B6D00293FF5 /* Assets.xcassets */; };
+		051A373D2AE49B6D00293FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051A373B2AE49B6D00293FF5 /* LaunchScreen.storyboard */; };
+		051A37402AE49B6D00293FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A373F2AE49B6D00293FF5 /* main.m */; };
+		051A374C2AE4E09500293FF5 /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A374B2AE4E09500293FF5 /* Ticket.m */; };
+		051A37522AE4EBC700293FF5 /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A37512AE4EBC700293FF5 /* History.m */; };
+		051A375E2AE5CA5800293FF5 /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A375D2AE5CA5800293FF5 /* Inventory.m */; };
+		051A37612AE60F8600293FF5 /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A37602AE60F8600293FF5 /* ManagerViewController.m */; };
+		051A37642AE612D700293FF5 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A37632AE612D700293FF5 /* HistoryTableViewController.m */; };
+		051A376A2AE6140A00293FF5 /* PurchasedTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A37692AE6140A00293FF5 /* PurchasedTicketViewController.m */; };
+		051A376D2AE62B1B00293FF5 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051A376C2AE62B1B00293FF5 /* ResetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051A372A2AE49B6C00293FF5 /* RaptorsTicketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaptorsTicketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051A372D2AE49B6C00293FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		051A372E2AE49B6C00293FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		051A37302AE49B6C00293FF5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		051A37312AE49B6C00293FF5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		051A37332AE49B6C00293FF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		051A37342AE49B6C00293FF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		051A37372AE49B6C00293FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051A37392AE49B6D00293FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051A373C2AE49B6D00293FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051A373E2AE49B6D00293FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051A373F2AE49B6D00293FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		051A374A2AE4E09500293FF5 /* Ticket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		051A374B2AE4E09500293FF5 /* Ticket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ticket.m; sourceTree = "<group>"; };
+		051A37502AE4EBC700293FF5 /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		051A37512AE4EBC700293FF5 /* History.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		051A375C2AE5CA5800293FF5 /* Inventory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		051A375D2AE5CA5800293FF5 /* Inventory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+		051A375F2AE60F8600293FF5 /* ManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerViewController.h; sourceTree = "<group>"; };
+		051A37602AE60F8600293FF5 /* ManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
+		051A37622AE612D700293FF5 /* HistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		051A37632AE612D700293FF5 /* HistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		051A37682AE6140A00293FF5 /* PurchasedTicketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchasedTicketViewController.h; sourceTree = "<group>"; };
+		051A37692AE6140A00293FF5 /* PurchasedTicketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchasedTicketViewController.m; sourceTree = "<group>"; };
+		051A376B2AE62B1B00293FF5 /* ResetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		051A376C2AE62B1B00293FF5 /* ResetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051A37272AE49B6C00293FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051A37212AE49B6B00293FF5 = {
+			isa = PBXGroup;
+			children = (
+				051A372C2AE49B6C00293FF5 /* RaptorsTicketApp */,
+				051A372B2AE49B6C00293FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051A372B2AE49B6C00293FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051A372A2AE49B6C00293FF5 /* RaptorsTicketApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051A372C2AE49B6C00293FF5 /* RaptorsTicketApp */ = {
+			isa = PBXGroup;
+			children = (
+				051A37462AE4BC6400293FF5 /* Model */,
+				051A372D2AE49B6C00293FF5 /* AppDelegate.h */,
+				051A372E2AE49B6C00293FF5 /* AppDelegate.m */,
+				051A37302AE49B6C00293FF5 /* SceneDelegate.h */,
+				051A37312AE49B6C00293FF5 /* SceneDelegate.m */,
+				051A37332AE49B6C00293FF5 /* ViewController.h */,
+				051A37342AE49B6C00293FF5 /* ViewController.m */,
+				051A37362AE49B6C00293FF5 /* Main.storyboard */,
+				051A37392AE49B6D00293FF5 /* Assets.xcassets */,
+				051A373B2AE49B6D00293FF5 /* LaunchScreen.storyboard */,
+				051A373E2AE49B6D00293FF5 /* Info.plist */,
+				051A373F2AE49B6D00293FF5 /* main.m */,
+				051A375F2AE60F8600293FF5 /* ManagerViewController.h */,
+				051A37602AE60F8600293FF5 /* ManagerViewController.m */,
+				051A37622AE612D700293FF5 /* HistoryTableViewController.h */,
+				051A37632AE612D700293FF5 /* HistoryTableViewController.m */,
+				051A37682AE6140A00293FF5 /* PurchasedTicketViewController.h */,
+				051A37692AE6140A00293FF5 /* PurchasedTicketViewController.m */,
+				051A376B2AE62B1B00293FF5 /* ResetViewController.h */,
+				051A376C2AE62B1B00293FF5 /* ResetViewController.m */,
+			);
+			path = RaptorsTicketApp;
+			sourceTree = "<group>";
+		};
+		051A37462AE4BC6400293FF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				051A374A2AE4E09500293FF5 /* Ticket.h */,
+				051A374B2AE4E09500293FF5 /* Ticket.m */,
+				051A37502AE4EBC700293FF5 /* History.h */,
+				051A37512AE4EBC700293FF5 /* History.m */,
+				051A375C2AE5CA5800293FF5 /* Inventory.h */,
+				051A375D2AE5CA5800293FF5 /* Inventory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051A37292AE49B6C00293FF5 /* RaptorsTicketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051A37432AE49B6D00293FF5 /* Build configuration list for PBXNativeTarget "RaptorsTicketApp" */;
+			buildPhases = (
+				051A37262AE49B6C00293FF5 /* Sources */,
+				051A37272AE49B6C00293FF5 /* Frameworks */,
+				051A37282AE49B6C00293FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaptorsTicketApp;
+			productName = RaptorsTicketApp;
+			productReference = 051A372A2AE49B6C00293FF5 /* RaptorsTicketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051A37222AE49B6B00293FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					051A37292AE49B6C00293FF5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 051A37252AE49B6C00293FF5 /* Build configuration list for PBXProject "RaptorsTicketApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051A37212AE49B6B00293FF5;
+			productRefGroup = 051A372B2AE49B6C00293FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051A37292AE49B6C00293FF5 /* RaptorsTicketApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051A37282AE49B6C00293FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051A373D2AE49B6D00293FF5 /* LaunchScreen.storyboard in Resources */,
+				051A373A2AE49B6D00293FF5 /* Assets.xcassets in Resources */,
+				051A37382AE49B6C00293FF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051A37262AE49B6C00293FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051A37642AE612D700293FF5 /* HistoryTableViewController.m in Sources */,
+				051A376D2AE62B1B00293FF5 /* ResetViewController.m in Sources */,
+				051A374C2AE4E09500293FF5 /* Ticket.m in Sources */,
+				051A37352AE49B6C00293FF5 /* ViewController.m in Sources */,
+				051A37522AE4EBC700293FF5 /* History.m in Sources */,
+				051A372F2AE49B6C00293FF5 /* AppDelegate.m in Sources */,
+				051A37612AE60F8600293FF5 /* ManagerViewController.m in Sources */,
+				051A376A2AE6140A00293FF5 /* PurchasedTicketViewController.m in Sources */,
+				051A37402AE49B6D00293FF5 /* main.m in Sources */,
+				051A37322AE49B6C00293FF5 /* SceneDelegate.m in Sources */,
+				051A375E2AE5CA5800293FF5 /* Inventory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		051A37362AE49B6C00293FF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051A37372AE49B6C00293FF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051A373B2AE49B6D00293FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051A373C2AE49B6D00293FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051A37412AE49B6D00293FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		051A37422AE49B6D00293FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051A37442AE49B6D00293FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaptorsTicketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.senecacollege.Project.RaptorsTicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051A37452AE49B6D00293FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaptorsTicketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.senecacollege.Project.RaptorsTicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051A37252AE49B6C00293FF5 /* Build configuration list for PBXProject "RaptorsTicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051A37412AE49B6D00293FF5 /* Debug */,
+				051A37422AE49B6D00293FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051A37432AE49B6D00293FF5 /* Build configuration list for PBXNativeTarget "RaptorsTicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051A37442AE49B6D00293FF5 /* Debug */,
+				051A37452AE49B6D00293FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051A37222AE49B6B00293FF5 /* Project object */;
+}
